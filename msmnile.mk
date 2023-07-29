@@ -159,6 +159,9 @@ PRODUCT_PACKAGES += \
     libpiex_shim \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Charger
+WITH_LINEAGE_CHARGER := true
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
